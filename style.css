@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Roboto Mono', monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&family=Roboto:wght@300;400&display=swap');
+
+
+body{
+    background-color:#2E2D4D;
+
+}
+
+.main-container{
+   /* display: flex;
+    align-items: center;
+    justify-content: center;  flex made the btn change */
+    margin: 30vh 12vw ;
+    padding: 10px 20px;
+    border-bottom: solid #D17A22 ;
+}
+
+.child-container{
+    padding: 20px;
+}
+
+h1{
+    color: #F5F6F3;
+    text-align:center ; 
+}
+h3{
+    color: #F5F6F3;
+    text-align: right ;  
+}
+button{
+    font-size: 20px;
+    background-color: #D17A22;
+    color: white;
+    border:  none;
+    padding: 15px;
+}
+
+
+footer{
+    background-color: #2E2D4D;
+    color:#F5F6F3;
+} 
+
+.ft-social-list{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.ft-social-list li{
+    padding: 2rem;
+}
+
+.fab{
+    color: white;
+}
+
+.ft-main li{
+    text-align: center;
+    font-size: 1.5rem;
+    list-style:none;
+}
+
+button:hover{
+    background-color: #7B4714;
+}
