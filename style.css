@@ -2,21 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-font-family: 'Roboto Mono', monospace;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&family=Roboto:wght@300;400&display=swap');
 
 
 body{
     background-color:#2E2D4D;
+    font-family: 'Roboto Mono', monospace;
 
 }
 
 .main-container{
-   /* display: flex;
-    align-items: center;
-    justify-content: center;  flex made the btn change */
-    margin: 30vh 12vw ;
+
+    margin: 25vh 12vw ;
     padding: 10px 20px;
     border-bottom: solid #D17A22 ;
 }
@@ -34,6 +32,7 @@ h3{
     text-align: right ;  
 }
 button{
+    font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     background-color: #D17A22;
     color: white;
@@ -45,10 +44,11 @@ button{
 footer{
     background-color: #2E2D4D;
     color:#F5F6F3;
+    position: relative;
 } 
 
 .ft-social-list{
-    height: 10vh;
+    /*height: 10vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
