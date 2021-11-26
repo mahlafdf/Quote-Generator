@@ -1,3 +1,3 @@
 # quotegenerator
 
-<a herf="https://mahlafdf.github.io/quotegenerator/"> Project Link </a>
+<a href="https://mahlafdf.github.io/quotegenerator/"> Project Link </a>
